@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Advanced_Unknowns",
+  "name": "Advanced Unknowns",
+  "description": "Advanced Unknowns??",
+  "version": "Alpha 0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Fibonacci"],
+  "credits": "Ben",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
