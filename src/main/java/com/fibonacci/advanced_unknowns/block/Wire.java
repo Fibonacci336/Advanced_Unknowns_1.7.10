@@ -60,4 +60,8 @@ public class Wire extends BlockContainer{
         }
         return AxisAlignedBB.getBoundingBox(x + this.minX, y + this.minY, z + this.minZ, x + this.maxX, y + this.maxY, z + this.maxZ);
     }
+    public String getItemIconName()
+    {
+        return "advancedunknowns:wire";
+    }
 }

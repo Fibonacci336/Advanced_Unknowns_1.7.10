@@ -1,7 +1,6 @@
 package com.fibonacci.advanced_unknowns.block;
 
 import com.fibonacci.advanced_unknowns.block.tileentity.TileEntityDiamondDetector;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
@@ -32,5 +31,10 @@ public class Diamond_Detector extends BlockContainer{
     public int getRenderType()
     {
         return -1;
+    }
+
+    public String getItemIconName()
+    {
+        return "advancedunknowns:diamonddetector";
     }
 }

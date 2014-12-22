@@ -14,6 +14,16 @@ public class AUTab extends CreativeTabs{
 
     @Override
     public Item getTabIconItem() {
-        return AU_Items.backpack;
+        return AU_Items.warphome;
+    }
+
+    public boolean hasSearchBar()
+    {
+        return true;
+    }
+
+    public int getSearchbarWidth()
+    {
+        return 62;
     }
 }
