@@ -57,7 +57,7 @@ public class ExpStorage extends Item {
         }
         return i;
     }
-    public String getRecordNameLocal() {
+    public String getInformation() {
         return StatCollector.translateToLocal("Able to store 50 levels");
     }
 }
