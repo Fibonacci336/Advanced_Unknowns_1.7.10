@@ -1,8 +1,8 @@
-[21:20:17] [main/INFO]: Setting user: Player613
-[21:20:19] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:20:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
-[21:20:36] [Sound Library Loader/INFO]: Sound engine started
-[21:20:37] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
+[00:06:49] [main/INFO]: Setting user: Player831
+[00:06:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:07:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
+[00:07:08] [Sound Library Loader/INFO]: Sound engine started
+[00:07:09] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
 java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,10 +27,10 @@ java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[21:20:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:20:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:20:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
-[21:20:38] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/DiamondDetector.png
+[00:07:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:07:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:07:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
+[00:07:10] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/DiamondDetector.png
 java.io.FileNotFoundException: advancedunknowns:textures/blocks/DiamondDetector.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -58,7 +58,7 @@ java.io.FileNotFoundException: advancedunknowns:textures/blocks/DiamondDetector.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[21:20:38] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
+[00:07:10] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
 java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -86,7 +86,7 @@ java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[21:20:38] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/Wire.png
+[00:07:11] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/Wire.png
 java.io.FileNotFoundException: advancedunknowns:textures/blocks/Wire.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -114,30 +114,56 @@ java.io.FileNotFoundException: advancedunknowns:textures/blocks/Wire.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[21:20:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:20:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:20:39] [Sound Library Loader/INFO]: Sound engine started
-[21:20:40] [Client thread/ERROR]: ########## GL ERROR ##########
-[21:20:40] [Client thread/ERROR]: @ Post startup
-[21:20:40] [Client thread/ERROR]: 1281: Invalid value
-[21:20:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:20:57] [Server thread/INFO]: Generating keypair
-[21:20:58] [Server thread/INFO]: Preparing start region for level 0
-[21:20:59] [Server thread/INFO]: Preparing spawn area: 27%
-[21:21:00] [Server thread/INFO]: Preparing spawn area: 78%
-[21:21:01] [Server thread/INFO]: Player613[local:E:c8cd4daa] logged in with entity id 229 at (-45.590135037614615, 80.91873923962409, 181.84544895186917)
-[21:21:01] [Server thread/INFO]: Player613 joined the game
-[21:21:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2100ms behind, skipping 42 tick(s)
-[21:21:05] [Server thread/INFO]: Player613 has just earned the achievement [Taking Inventory]
-[21:21:05] [Client thread/INFO]: [CHAT] Player613 has just earned the achievement [Taking Inventory]
-[21:25:32] [Server thread/INFO]: Saving and pausing game...
-[21:25:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:25:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:25:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:25:34] [Server thread/INFO]: Stopping server
-[21:25:34] [Server thread/INFO]: Saving players
-[21:25:34] [Server thread/INFO]: Saving worlds
-[21:25:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:25:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:25:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:25:35] [Client thread/INFO]: Stopping!
+[00:07:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:07:11] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/items/expstorage.png
+java.io.FileNotFoundException: advancedunknowns:textures/items/expstorage.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:643) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
+	at GradleStart.main(GradleStart.java:45) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[00:07:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:07:12] [Sound Library Loader/INFO]: Sound engine started
+[00:07:12] [Client thread/ERROR]: ########## GL ERROR ##########
+[00:07:12] [Client thread/ERROR]: @ Post startup
+[00:07:12] [Client thread/ERROR]: 1281: Invalid value
+[00:07:23] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:07:23] [Server thread/INFO]: Generating keypair
+[00:07:24] [Server thread/INFO]: Preparing start region for level 0
+[00:07:25] [Server thread/INFO]: Preparing spawn area: 25%
+[00:07:26] [Server thread/INFO]: Preparing spawn area: 70%
+[00:07:27] [Server thread/INFO]: Player831[local:E:614f61e3] logged in with entity id 230 at (-38.21715470257149, 93.39604330731353, 196.74311830778606)
+[00:07:27] [Server thread/INFO]: Player831 joined the game
+[00:07:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2333ms behind, skipping 46 tick(s)
+[00:07:35] [Server thread/INFO]: Saving and pausing game...
+[00:07:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:07:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:07:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:07:36] [Server thread/INFO]: Stopping server
+[00:07:36] [Server thread/INFO]: Saving players
+[00:07:36] [Server thread/INFO]: Saving worlds
+[00:07:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:07:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:07:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:07:38] [Client thread/INFO]: Stopping!
