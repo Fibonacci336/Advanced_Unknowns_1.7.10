@@ -1,63 +1,82 @@
 package com.fibonacci.advanced_unknowns.item;
 
+import com.fibonacci.advanced_unknowns.reference.AU_Items;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 
+import java.util.List;
+
 /**
  * Created by Fibonacci on 12/21/14.
  */
 public class ExpStorage extends Item {
 
-
-    private boolean finished;
-    private boolean tomuch;
-    private boolean noexp;
-
-    public ExpStorage(){
-        super();
-        this.setMaxDamage(50);
+    public ExpStorage() {
+        this.setMaxDamage(51);
         this.setMaxStackSize(1);
-        finished = false;
+        this.setDamage(new ItemStack(AU_Items.expstorage), 50);
+
     }
 
-    @Override
-    public ItemStack onItemRightClick(ItemStack i, World w, EntityPlayer p) {
-        if(!w.isRemote){
-            if(i.getItemDamage() >= 50){
-                i.setItemDamage(50);
-                i.damageItem(-1, p);
-                p.addExperienceLevel(-1);
-                this.finished = true;
-                if(i.getItemDamage() == 49){
-                    this.finished = false;
+    public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
+        par3List.add(this.getRecordNameLocal());
+    }
+
+    boolean finished = false;
+    boolean tomuch = false;
+    boolean noexp = false;
+
+    public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer) {
+
+        if (!par2World.isRemote) {
+            if (par1ItemStack.getItemDamage() >= 50) {
+                par1ItemStack.setItemDamage(50);
+                par1ItemStack.damageItem(-1, par3EntityPlayer);
+                par3EntityPlayer.addExperienceLevel(-1);
+                finished = true;
+                if (par1ItemStack.getItemDamage() == 49) {
+                    finished = false;
                 }
             }
-            if(i.getItemDamage() < 1){
-                this.tomuch = true;
+            if (par1ItemStack.getItemDamage() < 1) {
+                tomuch = true;
             }
-            if(i.getItemDamage() >= 1){
-                this.tomuch = false;
+            if (par1ItemStack.getItemDamage() >= 1) {
+                tomuch = false;
             }
-            if(p.experienceLevel < 1){
-                this.noexp = true;
+            if (par3EntityPlayer.experienceLevel < 1) {
+                noexp = true;
             }
-            if(p.experienceLevel >= 1){
-                this.noexp = false;
+            if (par3EntityPlayer.experienceLevel >= 1) {
+                noexp = false;
             }
-            if(p.isSneaking() && !this.finished){
-                p.addExperienceLevel(1);
-                i.damageItem(1, p);
-            }else if(i.getItemDamage() <= 51 && !finished && !tomuch && !noexp){
-                p.addExperienceLevel(-1);
-                i.damageItem(-1, p);
+            if (par3EntityPlayer.isSneaking() && !finished) {
+                par3EntityPlayer.addExperienceLevel(1);
+                par1ItemStack.damageItem(1, par3EntityPlayer);
+
+            } else {
+                if (par1ItemStack.getItemDamage() <= 51 && !finished && !tomuch && !noexp) {
+                    par3EntityPlayer.addExperienceLevel(-1);
+                    par1ItemStack.damageItem(-1, par3EntityPlayer);
+                }
             }
+
         }
-        return i;
+
+
+        return par1ItemStack;
     }
-    public String getInformation() {
+
+    public void onCreated(ItemStack i, World w, EntityPlayer p) {
+        i.setItemDamage(50);
+
+    }
+
+
+    public String getRecordNameLocal() {
         return StatCollector.translateToLocal("Able to store 50 levels");
     }
 }

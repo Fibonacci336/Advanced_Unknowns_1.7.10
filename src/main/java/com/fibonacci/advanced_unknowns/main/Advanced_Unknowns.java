@@ -2,6 +2,7 @@ package com.fibonacci.advanced_unknowns.main;
 
 import com.fibonacci.advanced_unknowns.client.creative.AUTab;
 import com.fibonacci.advanced_unknowns.reference.AU_Blocks;
+import com.fibonacci.advanced_unknowns.reference.AU_Generators;
 import com.fibonacci.advanced_unknowns.reference.AU_Items;
 import com.fibonacci.advanced_unknowns.reference.AU_Recipies;
 import com.fibonacci.advanced_unknowns.server.CommonProxy;
@@ -9,10 +10,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.network.IGuiHandler;
 import cpw.mods.fml.common.network.NetworkRegistry;
-
-import javax.xml.bind.helpers.AbstractUnmarshallerImpl;
 
 @Mod(modid = Advanced_Unknowns.MODID, version = Advanced_Unknowns.VERSION)
 public class Advanced_Unknowns
@@ -38,6 +36,8 @@ public class Advanced_Unknowns
         AU_Items.loadItems();
         AU_Items.registerItems();
         AU_Recipies.loadRecipies();
+        AU_Generators.loadGenerators();
+        AU_Generators.registerGenerators();
     }
     @EventHandler
     public void init(FMLInitializationEvent event){
