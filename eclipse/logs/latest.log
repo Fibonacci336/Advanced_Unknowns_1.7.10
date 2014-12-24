@@ -1,8 +1,8 @@
-[22:39:57] [main/INFO]: Setting user: Player898
-[22:40:03] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:40:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
-[22:40:39] [Sound Library Loader/INFO]: Sound engine started
-[22:40:41] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
+[23:46:35] [main/INFO]: Setting user: Player565
+[23:46:39] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:46:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
+[23:46:57] [Sound Library Loader/INFO]: Sound engine started
+[23:46:59] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
 java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,10 +27,10 @@ java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:40:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:40:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:40:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
-[22:40:43] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/DiamondDetector.png
+[23:46:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:47:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:47:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Unknowns, FMLFileResourcePack:Resonant Engine
+[23:47:00] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/DiamondDetector.png
 java.io.FileNotFoundException: advancedunknowns:textures/blocks/DiamondDetector.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -58,7 +58,7 @@ java.io.FileNotFoundException: advancedunknowns:textures/blocks/DiamondDetector.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:40:43] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
+[23:47:00] [Client thread/ERROR]: Using missing texture, unable to load resonant:textures/blocks/syntheticPart.png
 java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -86,7 +86,7 @@ java.io.FileNotFoundException: resonant:textures/blocks/syntheticPart.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:40:43] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/Wire.png
+[23:47:01] [Client thread/ERROR]: Using missing texture, unable to load advancedunknowns:textures/blocks/Wire.png
 java.io.FileNotFoundException: advancedunknowns:textures/blocks/Wire.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -114,102 +114,70 @@ java.io.FileNotFoundException: advancedunknowns:textures/blocks/Wire.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:40:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:40:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:40:45] [Sound Library Loader/INFO]: Sound engine started
-[22:40:48] [Client thread/ERROR]: ########## GL ERROR ##########
-[22:40:48] [Client thread/ERROR]: @ Post startup
-[22:40:48] [Client thread/ERROR]: 1281: Invalid value
-[22:41:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:41:18] [Server thread/INFO]: Generating keypair
-[22:41:20] [Server thread/INFO]: Preparing start region for level 0
-[22:41:21] [Server thread/INFO]: Preparing spawn area: 23%
-[22:41:22] [Server thread/INFO]: Preparing spawn area: 93%
-[22:41:23] [Server thread/INFO]: Changing view distance to 9, from 10
-[22:41:23] [Server thread/INFO]: Player898[local:E:4695bc67] logged in with entity id 339 at (938.9985289803772, 93.24727989578541, 100738.69999998808)
-[22:41:23] [Server thread/INFO]: Player898 joined the game
-[22:41:26] [Server thread/INFO]: Saving and pausing game...
-[22:41:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:41:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:41:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:41:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4575ms behind, skipping 91 tick(s)
-[22:42:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2527ms behind, skipping 50 tick(s)
-[22:42:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 183 ms
-[22:42:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 162 ms
-[22:42:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 118 ms
-[22:42:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7664ms behind, skipping 153 tick(s)
-[22:42:34] [Server thread/INFO]: [Player898: Teleported Player898 to 101028.88921754458,88.01498453851804,100741.18300517094]
-[22:42:34] [Client thread/INFO]: [CHAT] Teleported Player898 to 101028.88921754458,88.01498453851804,100741.18300517094
-[22:42:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 145 ms
-[22:42:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 159 ms
-[22:42:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 198 ms
-[22:42:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 129 ms
-[22:42:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 109 ms
-[22:43:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 15236ms behind, skipping 304 tick(s)
-[22:43:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[22:43:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 124 ms
-[22:43:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 155 ms
-[22:43:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
-[22:43:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 121 ms
-[22:43:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 262 ms
-[22:43:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 222 ms
-[22:43:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 151 ms
-[22:44:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[22:44:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 148 ms
-[22:44:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 157 ms
-[22:44:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 129 ms
-[22:44:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 132 ms
-[22:44:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 121 ms
-[22:44:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 107 ms
-[22:44:39] [Client thread/INFO]: Warning: Clientside chunk ticking took 122 ms
-[22:44:39] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
-[22:44:39] [Client thread/INFO]: Warning: Clientside chunk ticking took 207 ms
-[22:44:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[22:44:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 113 ms
-[22:44:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 139 ms
-[22:44:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 146 ms
-[22:44:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[22:44:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
-[22:44:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 170 ms
-[22:44:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 128 ms
-[22:44:52] [Server thread/INFO]: Player898 has just earned the achievement [Taking Inventory]
-[22:44:52] [Client thread/INFO]: [CHAT] Player898 has just earned the achievement [Taking Inventory]
-[22:45:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[22:45:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
-[22:45:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 113 ms
-[22:45:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 139 ms
-[22:45:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 113 ms
-[22:45:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 106 ms
-[22:45:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[22:45:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 137 ms
-[22:45:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 161 ms
-[22:45:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
-[22:45:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
-[22:45:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2059ms behind, skipping 41 tick(s)
-[22:45:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3320ms behind, skipping 66 tick(s)
-[22:46:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 131 ms
-[22:46:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 213 ms
-[22:46:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2326ms behind, skipping 46 tick(s)
-[22:46:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 222 ms
-[22:46:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 249 ms
-[22:46:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 239 ms
-[22:46:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 225 ms
-[22:46:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 124 ms
-[22:46:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
-[22:46:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
-[22:46:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 118 ms
-[22:46:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 118 ms
-[22:46:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 192 ms
-[22:46:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 106 ms
-[22:46:27] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[22:46:35] [Server thread/INFO]: Saving and pausing game...
-[22:46:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:46:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:46:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:53:34] [Server thread/INFO]: Stopping server
-[22:53:35] [Server thread/INFO]: Saving players
-[22:53:35] [Server thread/INFO]: Saving worlds
-[22:53:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:53:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:53:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:53:36] [Client thread/INFO]: Stopping!
+[23:47:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:47:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:47:02] [Sound Library Loader/INFO]: Sound engine started
+[23:47:03] [Client thread/ERROR]: ########## GL ERROR ##########
+[23:47:03] [Client thread/ERROR]: @ Post startup
+[23:47:03] [Client thread/ERROR]: 1281: Invalid value
+[23:47:12] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:47:12] [Server thread/INFO]: Generating keypair
+[23:47:12] [Server thread/INFO]: Converting map!
+[23:47:12] [Server thread/INFO]: Scanning folders...
+[23:47:12] [Server thread/INFO]: Total conversion count is 0
+[23:47:12] [Server thread/INFO]: Preparing start region for level 0
+[23:47:13] [Server thread/INFO]: Preparing spawn area: 4%
+[23:47:15] [Server thread/INFO]: Preparing spawn area: 7%
+[23:47:16] [Server thread/INFO]: Preparing spawn area: 12%
+[23:47:17] [Server thread/INFO]: Preparing spawn area: 17%
+[23:47:18] [Server thread/INFO]: Preparing spawn area: 22%
+[23:47:19] [Server thread/INFO]: Preparing spawn area: 29%
+[23:47:20] [Server thread/INFO]: Preparing spawn area: 35%
+[23:47:21] [Server thread/INFO]: Preparing spawn area: 42%
+[23:47:22] [Server thread/INFO]: Preparing spawn area: 49%
+[23:47:23] [Server thread/INFO]: Preparing spawn area: 56%
+[23:47:24] [Server thread/INFO]: Preparing spawn area: 62%
+[23:47:25] [Server thread/INFO]: Preparing spawn area: 67%
+[23:47:26] [Server thread/INFO]: Preparing spawn area: 75%
+[23:47:27] [Server thread/INFO]: Preparing spawn area: 83%
+[23:47:28] [Server thread/INFO]: Preparing spawn area: 91%
+[23:47:29] [Server thread/INFO]: Preparing spawn area: 99%
+[23:47:29] [Server thread/INFO]: Changing view distance to 9, from 10
+[23:47:30] [Server thread/INFO]: Player565[local:E:9c18cc15] logged in with entity id 234 at (-156.5, 84.0, 256.5)
+[23:47:30] [Server thread/INFO]: Player565 joined the game
+[23:47:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3807ms behind, skipping 76 tick(s)
+[23:47:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 312 ms
+[23:47:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 273 ms
+[23:47:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 518 ms
+[23:47:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 231 ms
+[23:47:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 277 ms
+[23:47:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 218 ms
+[23:47:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 515 ms
+[23:48:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
+[23:48:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
+[23:48:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
+[23:48:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 105 ms
+[23:48:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
+[23:48:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
+[23:48:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 127 ms
+[23:48:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 230 ms
+[23:48:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 219 ms
+[23:48:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 134 ms
+[23:48:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2297ms behind, skipping 45 tick(s)
+[23:48:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 166 ms
+[23:48:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 224 ms
+[23:49:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3971ms behind, skipping 79 tick(s)
+[23:49:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 288 ms
+[23:49:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 290 ms
+[23:49:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 302 ms
+[23:49:19] [Server thread/INFO]: Saving and pausing game...
+[23:49:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:49:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:49:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:49:21] [Server thread/INFO]: Stopping server
+[23:49:21] [Server thread/INFO]: Saving players
+[23:49:21] [Server thread/INFO]: Saving worlds
+[23:49:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:49:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:49:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:49:23] [Client thread/INFO]: Stopping!
