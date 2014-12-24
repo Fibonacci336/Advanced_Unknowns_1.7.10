@@ -120,3 +120,15 @@ java.io.FileNotFoundException: advancedunknowns:textures/blocks/Wire.png
 [00:59:44] [Client thread/ERROR]: ########## GL ERROR ##########
 [00:59:44] [Client thread/ERROR]: @ Post startup
 [00:59:44] [Client thread/ERROR]: 1281: Invalid value
+[01:00:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:00:35] [Server thread/INFO]: Generating keypair
+[01:00:35] [Server thread/INFO]: Preparing start region for level 0
+[01:00:36] [Server thread/INFO]: Preparing spawn area: 21%
+[01:00:37] [Server thread/INFO]: Preparing spawn area: 59%
+[01:00:39] [Server thread/INFO]: Changing view distance to 9, from 10
+[01:00:39] [Server thread/INFO]: Player473[local:E:02b08a59] logged in with entity id 359 at (-179.4087605672194, 70.0, 246.23689596420542)
+[01:00:39] [Server thread/INFO]: Player473 joined the game
+[01:00:45] [Server thread/INFO]: Saving and pausing game...
+[01:00:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:00:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:00:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End

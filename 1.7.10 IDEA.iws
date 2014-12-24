@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33515d0-da1c-46e1-a57f-8bde3772cde6" name="Default" comment="Added Bullets and made the Blaster less OP. Blaster consumes bullets">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/item/Blaster.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/item/Blaster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/block/Diamond_Detector.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/block/Diamond_Detector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.7.10 IDEA.iws" afterPath="$PROJECT_DIR$/1.7.10 IDEA.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Items.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Items.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Recipies.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Recipies.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
     </list>
@@ -96,14 +95,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.45498782" vertical-offset="188" max-vertical-offset="795">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1235,7 +1234,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419405954702</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Bullets and made the Blaster less OP. Blaster consumes bullets">
+      <created>1419408022654</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1419408022654</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1587,7 +1592,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1715,14 +1720,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45498782" vertical-offset="188" max-vertical-offset="795">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
           </folding>
         </state>
       </provider>
