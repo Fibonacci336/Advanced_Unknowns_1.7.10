@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d33515d0-da1c-46e1-a57f-8bde3772cde6" name="Default" comment="Fixed Stone Temple spawning undergroud and other bugs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/textures/items/blasterbullets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/BlasterBullets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-12-23-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-12-23-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/reference/AU_Items.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/reference/AU_Items.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/reference/AU_Recipies.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/reference/AU_Recipies.class" />
+    <list default="true" id="d33515d0-da1c-46e1-a57f-8bde3772cde6" name="Default" comment="Added Bullets and made the Blaster less OP. Blaster consumes bullets">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/item/Blaster.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/item/Blaster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/block/Diamond_Detector.class" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/com/fibonacci/advanced_unknowns/block/Diamond_Detector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.7.10 IDEA.iws" afterPath="$PROJECT_DIR$/1.7.10 IDEA.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Items.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Items.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Recipies.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Recipies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/main/world/features/StoneTemple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.7.10 IDEA/assets/advancedunknowns/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/1.7.10 IDEA/assets/advancedunknowns/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
@@ -98,42 +82,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Blaster.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Blaster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25485438" vertical-offset="0" max-vertical-offset="435">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AU_Items.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Items.java">
+      <file leaf-file-name="Diamond_Detector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="540">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.45498782" vertical-offset="188" max-vertical-offset="795">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockTripWireHook.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockTripWireHook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1573" max-vertical-offset="6240">
+              <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <file leaf-file-name="BlockSnow.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockSnow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2445">
+              <caret line="104" column="79" selection-start-line="104" selection-start-column="79" selection-end-line="104" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en_US.lang" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang">
+      <file leaf-file-name="BlockVine.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockVine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="6135">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockTorch.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockTorch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="4500">
+              <caret line="220" column="5" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.4230769" vertical-offset="10042" max-vertical-offset="35325">
+              <caret line="795" column="5" selection-start-line="795" selection-start-column="5" selection-end-line="795" selection-end-column="5" />
+              <folding>
+                <element signature="e#85294#85295#0" expanded="true" />
+                <element signature="e#85331#85332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Blocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/tileentity/TileEntityWire.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/tileentity/render/TileEntityRenderWire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/client/creative/AUTab.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Wire.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/client/ClientProxy.java" />
@@ -234,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/advancedunknowns/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/reference/AU_Recipies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java" />
       </list>
     </option>
   </component>
@@ -242,10 +266,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+    <option name="x" value="-12" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -834,36 +858,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="reference" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.7.10 IDEA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.7.10 IDEA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced_unknowns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -892,7 +886,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Generator&#9;PSI&#9;JAVA://com.sun.codemodel.internal.util.Surrogate.Generator&#10;renderlightni&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderLightningBolt&#10;EntityLightning&#9;FILE&#9;jar:///Users/Fibonacci/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/entity/effect/EntityLightningBolt.java&#10;renderlight&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderLightningBolt&#10;EntityLightn&#9;PSI&#9;JAVA://net.minecraft.entity.effect.EntityLightningBolt&#10;Block&#9;FILE&#9;jar:///Users/Fibonacci/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/Block.java" />
+    <property name="SearchEverywhereHistoryKey" value="Block&#9;PSI&#9;JAVA://net.minecraft.block.Block&#10;Generator&#9;PSI&#9;JAVA://com.sun.codemodel.internal.util.Surrogate.Generator&#10;renderlightni&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderLightningBolt&#10;EntityLightning&#9;FILE&#9;jar:///Users/Fibonacci/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/entity/effect/EntityLightningBolt.java&#10;renderlight&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderLightningBolt&#10;EntityLightn&#9;PSI&#9;JAVA://net.minecraft.entity.effect.EntityLightningBolt" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="43" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="48" />
@@ -1235,7 +1229,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419403863800</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added Bullets and made the Blaster less OP. Blaster consumes bullets">
+      <created>1419405954702</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1419405954702</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1259,8 +1259,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="23" width="1280" height="725" extended-state="6" />
-    <editor active="true" />
+    <frame x="-12" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1270,7 +1270,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1279,8 +1279,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1312,7 +1312,8 @@
     <MESSAGE value="Added Sounds" />
     <MESSAGE value="Added Stone Temple with a surprise in the center" />
     <MESSAGE value="Fixed Stone Temple spawning undergroud and other bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Stone Temple spawning undergroud and other bugs" />
+    <MESSAGE value="Added Bullets and made the Blaster less OP. Blaster consumes bullets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bullets and made the Blaster less OP. Blaster consumes bullets" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1327,52 +1328,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/entity/throwable/EntityLaserBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="735">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/Explosion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3266" max-vertical-offset="3675">
-          <caret line="237" column="56" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/gen/structure/MapGenNetherBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="990">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/gen/feature/WorldGenDeadBush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="675">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/gen/feature/WorldGenDesertWells.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/gen/feature/WorldGenMinable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07334963" vertical-offset="90" max-vertical-offset="1320">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/world/gen/feature/WorldGenSavannaTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.14669926" vertical-offset="120" max-vertical-offset="3045">
@@ -1412,6 +1367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,6 +1375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="7455">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,6 +1390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,6 +1398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,9 +1663,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/item/Blaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25485438" vertical-offset="0" max-vertical-offset="435">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockVine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="6135">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockSnow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2445">
+          <caret line="104" column="79" selection-start-line="104" selection-start-column="79" selection-end-line="104" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockTorch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="4500">
+          <caret line="220" column="5" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/BlockTripWireHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2008" max-vertical-offset="6240">
+          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/block/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4230769" vertical-offset="10042" max-vertical-offset="35325">
+          <caret line="795" column="5" selection-start-line="795" selection-start-column="5" selection-end-line="795" selection-end-column="5" />
+          <folding>
+            <element signature="e#85294#85295#0" expanded="true" />
+            <element signature="e#85331#85332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci/advanced_unknowns/block/Diamond_Detector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45498782" vertical-offset="188" max-vertical-offset="795">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
